@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff2799d5">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2799d5"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Molimo ustupite svoj uređaj nadležnoj osobi u ljekarni kako bi ona mogla potvrditi vaš odabir!"
+        android:id="@+id/textView2"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:id="@+id/idPaketEdit"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#ffffffff"
+        android:textColor="#ff000000"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="id paketa"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/odabraniPakettxt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp">
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="POTVRDI"
+            android:id="@+id/potvrdiButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.07"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#ffffffff"
+            android:layout_marginRight="7dp"
+            android:textColor="#ff2799d5" />
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="ODUSTANI"
+            android:id="@+id/odustaniiButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.07"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#ffffffff"
+            android:layout_marginLeft="7dp"
+            android:textColor="#ff2799d5" />
+        </LinearLayout>
+
+    <Button
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:text="POVRATAK"
+        android:id="@+id/povratakButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.07"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+</LinearLayout>
+    </ScrollView>

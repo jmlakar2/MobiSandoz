@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff2799d5">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="7dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Moji bodovi:"
+            android:id="@+id/nagradeBodoviTxt"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/prikazBodoviTxt"
+            android:textColor="#ffffffff"
+            android:textStyle="bold"
+            android:text="0"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp" />
+        </LinearLayout>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:divider="@android:color/white"
+        android:dividerHeight="2dp"
+        android:background="@drawable/abc_list_selector_background_transition_holo_dark"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp">
+    </ListView>
+
+</LinearLayout>

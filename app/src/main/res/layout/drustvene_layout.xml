@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff2799d5">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff2799d5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=""
+            android:id="@+id/podaciTxt"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffffff"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="35dp">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/podijeliButton"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/facebook4"
+                android:layout_marginTop="25dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginRight="20dp"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/twitterButton"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/twitter"
+                android:layout_marginTop="25dp"
+                android:scaleType="fitXY"
+                android:background="@null"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="*Pritiskom na jednu od ikona možete podijeliti svoje iskustvo sa kupljenim proizvodom na željenu društvenu mrežu. Time dobivate dodatnih 5 bodova"
+            android:id="@+id/fbPorukaTxt"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="#ffffffff"/>
+
+        <Button
+            android:layout_width="143dp"
+            android:layout_height="wrap_content"
+            android:text="ZAVRŠI"
+            android:id="@+id/zavrsiButton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:layout_weight="0.07"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5" />
+
+    </LinearLayout>
+</ScrollView>

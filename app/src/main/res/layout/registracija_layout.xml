@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff2799d5">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ff2799d5">
+
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/imeReg"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:textSize="30dp"
+            android:hint="ime"
+            android:elegantTextHeight="false"
+            android:gravity="center" />
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/prezimeReg"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:hint="prezime"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:layout_marginTop="7dp" />
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/emailReg"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:hint="e-mail"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:layout_marginTop="7dp" />
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/korImeReg"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5"
+            android:layout_gravity="center_horizontal"
+            android:textSize="30dp"
+            android:hint="korisničko ime"
+            android:elegantTextHeight="false"
+            android:gravity="center"
+            android:layout_marginTop="7dp" />
+
+        <EditText
+            android:layout_width="307dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:id="@+id/lozinkaReg"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7dp"
+            android:textSize="30dp"
+            android:inputType="textPassword"
+            android:password="false"
+            android:hint="lozinka"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="194dp"
+            android:layout_height="wrap_content"
+            android:text="REGISTRACIJA"
+            android:id="@+id/regBtn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75dp"
+            android:background="#ffffffff"
+            android:textColor="#ff2799d5"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+    </LinearLayout>
+</ScrollView>
